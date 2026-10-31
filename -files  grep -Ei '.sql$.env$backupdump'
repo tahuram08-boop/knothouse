@@ -1,0 +1,118 @@
+[35madmin/add-product.php[m[36m:[m[32m35[m[36m:[m$[1;31mpassword[m = "";
+[35madmin/add-product.php[m[36m:[m[32m41[m[36m:[m    $[1;31mpassword[m,
+[35madmin/dashboard.php[m[36m:[m[32m18[m[36m:[m$[1;31mpassword[m = "";
+[35madmin/dashboard.php[m[36m:[m[32m24[m[36m:[m    $[1;31mpassword[m,
+[35madmin/delete-product.php[m[36m:[m[32m21[m[36m:[m$[1;31mpassword[m = "";
+[35madmin/delete-product.php[m[36m:[m[32m27[m[36m:[m    $[1;31mpassword[m,
+[35madmin/edit-product.php[m[36m:[m[32m20[m[36m:[m$[1;31mpassword[m = "";
+[35madmin/edit-product.php[m[36m:[m[32m26[m[36m:[m    $[1;31mpassword[m,
+[35madmin/inventory.php[m[36m:[m[32m25[m[36m:[m$[1;31mpassword[m = "";
+[35madmin/inventory.php[m[36m:[m[32m31[m[36m:[m    $[1;31mpassword[m,
+[35madmin/login.php[m[36m:[m[32m16[m[36m:[m$db_[1;31mpassword[m = "";
+[35madmin/login.php[m[36m:[m[32m22[m[36m:[m    $db_[1;31mpassword[m,
+[35madmin/login.php[m[36m:[m[32m55[m[36m:[m    $[1;31mpassword[m = trim($_POST["[1;31mpassword[m"] ?? "");
+[35madmin/login.php[m[36m:[m[32m62[m[36m:[m    if ($email == "" || $[1;31mpassword[m == "") {
+[35madmin/login.php[m[36m:[m[32m64[m[36m:[m        $error = "Please enter both email and [1;31mpassword[m.";
+[35madmin/login.php[m[36m:[m[32m81[m[36m:[m            SELECT id, name, email, [1;31mpassword[m
+[35madmin/login.php[m[36m:[m[32m115[m[36m:[m                   Current database uses plain [1;31mpassword[m:
+[35madmin/login.php[m[36m:[m[32m118[m[36m:[m                   Later we can upgrade this to [1;31mpassword[m_hash().
+[35madmin/login.php[m[36m:[m[32m121[m[36m:[m                if ($[1;31mpassword[m === $admin["[1;31mpassword[m"]) {
+[35madmin/login.php[m[36m:[m[32m146[m[36m:[m                    $error = "Incorrect [1;31mpassword[m. Please try again.";
+[35madmin/login.php[m[36m:[m[32m944[m[36m:[m        .[1;31mpassword[m-input {
+[35madmin/login.php[m[36m:[m[32m951[m[36m:[m        .[1;31mpassword[m-toggle {
+[35madmin/login.php[m[36m:[m[32m976[m[36m:[m        .[1;31mpassword[m-toggle:hover {
+[35madmin/login.php[m[36m:[m[32m1528[m[36m:[m                        <label for="[1;31mpassword[m">
+[35madmin/login.php[m[36m:[m[32m1541[m[36m:[m                                type="[1;31mpassword[m"
+[35madmin/login.php[m[36m:[m[32m1542[m[36m:[m                                id="[1;31mpassword[m"
+[35madmin/login.php[m[36m:[m[32m1543[m[36m:[m                                name="[1;31mpassword[m"
+[35madmin/login.php[m[36m:[m[32m1544[m[36m:[m                                class="form-input [1;31mpassword[m-input"
+[35madmin/login.php[m[36m:[m[32m1545[m[36m:[m                                placeholder="Enter your [1;31mpassword[m"
+[35madmin/login.php[m[36m:[m[32m1546[m[36m:[m                                autocomplete="current-[1;31mpassword[m"
+[35madmin/login.php[m[36m:[m[32m1547[m[36m:[m                                id="[1;31mpassword[m"
+[35madmin/login.php[m[36m:[m[32m1554[m[36m:[m                                class="[1;31mpassword[m-toggle"
+[35madmin/login.php[m[36m:[m[32m1556[m[36m:[m                                id="[1;31mpassword[mToggle"
+[35madmin/login.php[m[36m:[m[32m1557[m[36m:[m                                aria-label="Show [1;31mpassword[m"
+[35madmin/login.php[m[36m:[m[32m1641[m[36m:[m        const [1;31mpassword[mInput =
+[35madmin/login.php[m[36m:[m[32m1642[m[36m:[m            document.getElementById("[1;31mpassword[m");
+[35madmin/login.php[m[36m:[m[32m1645[m[36m:[m            document.getElementById("[1;31mpassword[mToggle");
+[35madmin/login.php[m[36m:[m[32m1648[m[36m:[m        if ([1;31mpassword[mInput.type === "[1;31mpassword[m") {
+[35madmin/login.php[m[36m:[m[32m1650[m[36m:[m            [1;31mpassword[mInput.type = "text";
+[35madmin/login.php[m[36m:[m[32m1656[m[36m:[m                "Hide [1;31mpassword[m"
+[35madmin/login.php[m[36m:[m[32m1661[m[36m:[m            [1;31mpassword[mInput.type = "[1;31mpassword[m";
+[35madmin/login.php[m[36m:[m[32m1667[m[36m:[m                "Show [1;31mpassword[m"
+[35madmin/message.php[m[36m:[m[32m24[m[36m:[m$[1;31mpassword[m = "";
+[35madmin/message.php[m[36m:[m[32m31[m[36m:[m    $[1;31mpassword[m,
+[35madmin/messages.php[m[36m:[m[32m11[m[36m:[m$[1;31mpassword[m = "";
+[35madmin/messages.php[m[36m:[m[32m14[m[36m:[m$conn = new mysqli($host, $username, $[1;31mpassword[m, $database);
+[35madmin/order.php[m[36m:[m[32m20[m[36m:[m$[1;31mpassword[m = "";
+[35madmin/order.php[m[36m:[m[32m26[m[36m:[m    $[1;31mpassword[m,
+[35madmin/products.php[m[36m:[m[32m17[m[36m:[m$[1;31mpassword[m = "";
+[35madmin/products.php[m[36m:[m[32m20[m[36m:[m$conn = new mysqli($host, $username, $[1;31mpassword[m, $database);
+[35madmin/reply-message.php[m[36m:[m[32m16[m[36m:[m$[1;31mpassword[m = "";
+[35madmin/reply-message.php[m[36m:[m[32m22[m[36m:[m    $[1;31mpassword[m,
+[35madmin/view-message.php[m[36m:[m[32m13[m[36m:[m$[1;31mpassword[m = "";
+[35madmin/view-message.php[m[36m:[m[32m19[m[36m:[m    $[1;31mpassword[m,
+[35mcontact.php[m[36m:[m[32m16[m[36m:[m$[1;31mpassword[m = "";
+[35mcontact.php[m[36m:[m[32m23[m[36m:[m    $[1;31mpassword[m,
+[35mget-products.php[m[36m:[m[32m7[m[36m:[m$[1;31mpassword[m = "";
+[35mget-products.php[m[36m:[m[32m18[m[36m:[m    $[1;31mpassword[m,
+[35mlogin.php[m[36m:[m[32m13[m[36m:[m$[1;31mpassword[m = "";
+[35mlogin.php[m[36m:[m[32m16[m[36m:[m$conn = new mysqli($host, $username, $[1;31mpassword[m, $database);
+[35mlogin.php[m[36m:[m[32m31[m[36m:[m    $userPassword = $_POST["[1;31mpassword[m"] ?? "";
+[35mlogin.php[m[36m:[m[32m35[m[36m:[m        $error = "Please enter your email and [1;31mpassword[m.";
+[35mlogin.php[m[36m:[m[32m45[m[36m:[m            "SELECT id, full_name, email, [1;31mpassword[m
+[35mlogin.php[m[36m:[m[32m58[m[36m:[m            /* Verify the hashed [1;31mpassword[m */
+[35mlogin.php[m[36m:[m[32m59[m[36m:[m            if ([1;31mpassword[m_verify($userPassword, $customer["[1;31mpassword[m"])) {
+[35mlogin.php[m[36m:[m[32m77[m[36m:[m                $error = "Incorrect email or [1;31mpassword[m.";
+[35mlogin.php[m[36m:[m[32m82[m[36m:[m            $error = "Incorrect email or [1;31mpassword[m.";
+[35mlogin.php[m[36m:[m[32m395[m[36m:[m                    <label for="[1;31mpassword[m">Password</label>
+[35mlogin.php[m[36m:[m[32m398[m[36m:[m                        type="[1;31mpassword[m"
+[35mlogin.php[m[36m:[m[32m399[m[36m:[m                        id="[1;31mpassword[m"
+[35mlogin.php[m[36m:[m[32m400[m[36m:[m                        name="[1;31mpassword[m"
+[35mlogin.php[m[36m:[m[32m401[m[36m:[m                        placeholder="Enter your [1;31mpassword[m"
+[35mlogin.php[m[36m:[m[32m402[m[36m:[m                        autocomplete="current-[1;31mpassword[m"
+[35mmy-addresses.php[m[36m:[m[32m14[m[36m:[m$[1;31mpassword[m = "";
+[35mmy-addresses.php[m[36m:[m[32m17[m[36m:[m$conn = new mysqli($host, $username, $[1;31mpassword[m, $database);
+[35mmy-favourites.php[m[36m:[m[32m8[m[36m:[m$[1;31mpassword[m = "";
+[35mmy-favourites.php[m[36m:[m[32m18[m[36m:[m$conn = new mysqli($host, $username, $[1;31mpassword[m, $database);
+[35mplace-order.php[m[36m:[m[32m17[m[36m:[m$[1;31mpassword[m = "";
+[35mplace-order.php[m[36m:[m[32m23[m[36m:[m    $[1;31mpassword[m,
+[35mprofile.php[m[36m:[m[32m25[m[36m:[m    "SELECT id, full_name, email, phone, [1;31mpassword[m
+[35mprofile.php[m[36m:[m[32m56[m[36m:[m    $currentPassword = $_POST["current_[1;31mpassword[m"] ?? "";
+[35mprofile.php[m[36m:[m[32m57[m[36m:[m    $newPassword = $_POST["new_[1;31mpassword[m"] ?? "";
+[35mprofile.php[m[36m:[m[32m58[m[36m:[m    $confirmPassword = $_POST["confirm_[1;31mpassword[m"] ?? "";
+[35mprofile.php[m[36m:[m[32m108[m[36m:[m                    $error = "Fill in all three [1;31mpassword[m fields to change your [1;31mpassword[m.";
+[35mprofile.php[m[36m:[m[32m110[m[36m:[m                } elseif (![1;31mpassword[m_verify($currentPassword, $customer["[1;31mpassword[m"])) {
+[35mprofile.php[m[36m:[m[32m112[m[36m:[m                    $error = "Your current [1;31mpassword[m is incorrect.";
+[35mprofile.php[m[36m:[m[32m116[m[36m:[m                    $error = "Your new [1;31mpassword[m must contain at least 8 characters.";
+[35mprofile.php[m[36m:[m[32m120[m[36m:[m                    $error = "The new [1;31mpassword[ms do not match.";
+[35mprofile.php[m[36m:[m[32m128[m[36m:[m                    $hashedPassword = [1;31mpassword[m_hash(
+[35mprofile.php[m[36m:[m[32m135[m[36m:[m                         SET full_name = ?, email = ?, phone = ?, [1;31mpassword[m = ?
+[35mprofile.php[m[36m:[m[32m174[m[36m:[m                        "SELECT id, full_name, email, phone, [1;31mpassword[m
+[35mprofile.php[m[36m:[m[32m584[m[36m:[m                Leave all three [1;31mpassword[m fields empty if you do not want to change your [1;31mpassword[m.
+[35mprofile.php[m[36m:[m[32m588[m[36m:[m                <label for="current_[1;31mpassword[m">Current Password</label>
+[35mprofile.php[m[36m:[m[32m590[m[36m:[m                    type="[1;31mpassword[m"
+[35mprofile.php[m[36m:[m[32m591[m[36m:[m                    id="current_[1;31mpassword[m"
+[35mprofile.php[m[36m:[m[32m592[m[36m:[m                    name="current_[1;31mpassword[m"
+[35mprofile.php[m[36m:[m[32m593[m[36m:[m                    autocomplete="current-[1;31mpassword[m"
+[35mprofile.php[m[36m:[m[32m598[m[36m:[m                <label for="new_[1;31mpassword[m">New Password</label>
+[35mprofile.php[m[36m:[m[32m600[m[36m:[m                    type="[1;31mpassword[m"
+[35mprofile.php[m[36m:[m[32m601[m[36m:[m                    id="new_[1;31mpassword[m"
+[35mprofile.php[m[36m:[m[32m602[m[36m:[m                    name="new_[1;31mpassword[m"
+[35mprofile.php[m[36m:[m[32m604[m[36m:[m                    autocomplete="new-[1;31mpassword[m"
+[35mprofile.php[m[36m:[m[32m610[m[36m:[m                <label for="confirm_[1;31mpassword[m">Confirm New Password</label>
+[35mprofile.php[m[36m:[m[32m612[m[36m:[m                    type="[1;31mpassword[m"
+[35mprofile.php[m[36m:[m[32m613[m[36m:[m                    id="confirm_[1;31mpassword[m"
+[35mprofile.php[m[36m:[m[32m614[m[36m:[m                    name="confirm_[1;31mpassword[m"
+[35mprofile.php[m[36m:[m[32m616[m[36m:[m                    autocomplete="new-[1;31mpassword[m"
+[35mregister.php[m[36m:[m[32m23[m[36m:[m$[1;31mpassword[m = $_POST["[1;31mpassword[m"] ?? "";
+[35mregister.php[m[36m:[m[32m24[m[36m:[m$confirmPassword = $_POST["confirm_[1;31mpassword[m"] ?? "";
+[35mregister.php[m[36m:[m[32m29[m[36m:[mif ($fullName === "" || $email === "" || $[1;31mpassword[m === "" || $confirmPassword === "") {
+[35mregister.php[m[36m:[m[32m35[m[36m:[m} elseif (strlen($[1;31mpassword[m) < 8) {
+[35mregister.php[m[36m:[m[32m37[m[36m:[m} elseif ($[1;31mpassword[m !== $confirmPassword) {
+[35mregister.php[m[36m:[m[32m65[m[36m:[m    $hashedPassword = [1;31mpassword[m_hash($[1;31mpassword[m, PASSWORD_DEFAULT);
+[35mregister.php[m[36m:[m[32m68[m[36m:[m        "INSERT INTO customers (full_name, email, phone, [1;31mpassword[m)
+[35mtoggle-favourite.php[m[36m:[m[32m10[m[36m:[m$[1;31mpassword[m = "";
+[35mtoggle-favourite.php[m[36m:[m[32m31[m[36m:[m$conn = new mysqli($host, $username, $[1;31mpassword[m, $database);
+[35mtrack-order.php[m[36m:[m[32m15[m[36m:[m$[1;31mpassword[m = "";
+[35mtrack-order.php[m[36m:[m[32m22[m[36m:[m    $[1;31mpassword[m,
